@@ -7,20 +7,20 @@ Converting an image into CSV (Comma-Separated Values) format is not a straightfo
 
 Here's a general outline of how you can convert image data to CSV:
 
-#Preparation:
+# Preparation:
 
 Choose the image you want to convert.
 Decide what data you want to extract from the image, e.g., pixel values, numerical data, etc.
 
-#Image Processing:
+# Image Processing:
 
 You might need to use image processing libraries like OpenCV (for Python) or other image processing tools to extract relevant data from the image.
 
-#Data Extraction:
+# Data Extraction:
 
 If you are working with pixel values, you'll need to read the image and extract pixel values. For example, in Python with OpenCV:
 
-#CSV Conversion:
+# CSV Conversion:
 
 Once you have the data extracted, you can create a CSV file and write the data to it. You can use libraries like csv in Python to create the CSV file.
 
